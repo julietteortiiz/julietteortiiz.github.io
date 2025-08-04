@@ -33,7 +33,7 @@ export default function App() {
 
   const projects = [
     {
-      title: "Digital Advertising Analytics",
+      title: "Data Engineering for Google Ads Benchmark Report",
       description: "Analyzed CTR and CPC data across South African businesses to define performance benchmarks, categorizing by industry for actionable insights.",
       tech: ["Python", "Pandas", "Data Analysis", "Statistical Modeling"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
@@ -41,18 +41,10 @@ export default function App() {
       live: "#"
     },
     {
-      title: "Nonprofit Digital Archive",
+      title: "GAM Digital Archive",
       description: "Enhanced website design and user experience for Grupo de Apoyo Mutuo, improving accessibility and creating documentation for future initiatives.",
       tech: ["Django", "Git", "GitHub", "Web Development"],
       image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=300&fit=crop",
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Data Pipeline Implementation",
-      description: "Designed and implemented data pipelines to process large datasets for benchmark reporting and statistical analysis at Adbot.",
-      tech: ["Python", "Data Processing", "SQL", "Analytics"],
-      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=300&fit=crop",
       github: "#",
       live: "#"
     }
@@ -203,7 +195,7 @@ export default function App() {
               </p>
               <p className="text-base leading-relaxed">
                 Through internships in South Africa and Guatemala, I've gained hands-on experience 
-                in data analysis, web development, and working with nonprofits. I'm passionate about 
+                in data analysis, web development, and working with nonprofits and startups. I'm passionate about 
                 using technology to create positive social impact.
               </p>
               <p className="text-base leading-relaxed">
@@ -307,7 +299,7 @@ export default function App() {
             </a>
             
             <a 
-              href="https://github.com/julietteoortiz"
+              href="https://github.com/julietteortiiz"
               className="bg-white/5 rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all duration-200 text-center"
             >
               <Github className="w-6 h-6 text-blue-400 mx-auto mb-2" />
